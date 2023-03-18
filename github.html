@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Github</title>
+
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200&display=swap" rel="stylesheet">
+
+
+
+
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        html {
+            font-size: 62.5%;
+        }
+
+        body,
+        h1,
+        h2,
+        ul {
+            margin: 0;
+            padding: 0;
+
+        }
+
+        ul {
+            list-style: none;
+        }
+
+        /*******************/
+
+        body {
+            font-family: 'Nunito Sans', sans-serif;
+        }
+
+        .arkaplan {
+            background-color: #3d252ae4;
+        }
+
+        .kapsayici {
+            width: 900px;
+            margin: 0 auto;
+        }
+
+        .ust {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            min-height: 150px;
+        }
+
+        .ust .logo {
+            text-align: center;
+            color: #fff;
+        }
+
+        .ust .logo h1 {
+            font-size: 4rem;
+            letter-spacing: .5rem;
+        }
+
+        .ust .logo h1::first-letter {
+            color: #b1fc41;
+        }
+
+        .ust .logo h1:hover::first-letter {
+            background-color: #fc7f41;
+            color: #25373D;
+        }
+
+        .ust .logo h2:hover::first-letter {
+            background-color: #befc41;
+
+        }
+
+        .ust .logo h2 {
+            font-size: 2.4rem;
+        }
+
+
+
+
+
+        .ust .menu ul {
+            display: flex;
+        }
+
+        .ust .menu ul li {
+            margin: 0 1rem;
+        }
+
+        .ust .menu ul a {
+            color: #fff;
+            text-decoration: none;
+            font-size: 1.8rem;
+            padding: 0 2rem;
+        }
+
+        .ust .menu ul a:hover {
+            color: #76fc41;
+        }
+
+        .orta .bolum1 {
+            margin-top: 10px;
+            border: 10px salmon #25373D;
+            padding: 10px;
+
+
+
+            display: flex;
+            justify-content: space-between;
+            gap: 20px;
+        }
+
+        .orta .bolum1 img {
+            display: block;
+            width: 100%;
+
+        }
+
+        .orta .bolum2 {
+            margin-top: 20px;
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .orta .bolum2 .kutu {
+            flex-basis: 290px;
+        }
+
+        .orta .bolum2 .kutu h2 {
+            font-size: 2rem;
+        }
+
+        .orta .bolum2 .kutu p {
+            font-size: 1.6rem;
+        }
+
+        .orta .bolum3 {
+            display: flex;
+            justify-content: space-between;
+            gap: 20px;
+        }
+
+        .orta .bolum3 h1 {
+            font-size: 2.5rem;
+        }
+
+        .orta .bolum3 p {
+            font-size: 1.6rem;
+        }
+
+        .alt {
+            margin-top: 20px;
+            padding: 20px 0;
+            display: flex;
+            gap: 20px;
+        }
+
+        .alt .baglanti {
+            flex-grow: 1;
+        }
+
+        .alt .baglanti ul li {
+            border-bottom: dotted 1px #d0fc41;
+            margin: 5px 0;
+        }
+
+        .alt .baglanti a {
+            font-size: 1.6rem;
+            text-decoration: none;
+            color: #aefc41;
+        }
+
+
+        .cizgi {
+            border-top: dotted 1px #9efc41;
+            margin: 20px 0;
+        }
+
+        .alt-kenar-10 {
+            border-bottom: 10px solid #befc41;
+        }
+
+
+
+        .sola-kay {
+            float: left;
+            
+        }
+    </style>
+
+</head>
+
+<body>
+    <!-- sayfa üstü-->
+    <div class="arkaplan alt-kenar-10">
+        <div class="ust kapsayici">
+            <div class="logo">
+
+                <i>
+                    <h1 id="home">Yusuf ÖZEN</h1>
+                </i>
+
+            </div>
+
+            <div class="menu">
+                <ul>
+                    <li><a href="#home">Home Page</a></li>
+                    <li><a href="#About">About</a></li>
+                    <li><a href="#contact">Contact Information</a></li>
+
+                </ul>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <!-- sayfa ortası-->
+
+    <div class="orta kapsayici">
+        <div class="bolum1">
+            <img src="Images/image3.jpg" alt="Kapak resmi" width="300">
+
+
+
+
+
+
+
+
+        </div>
+
+        <div class="bolum2">
+            <div class="kutu">
+
+                <img src="Images/image1.jpeg" alt="" width="300" class="sola-kay">
+
+                <h2>Certificates and Courses</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed, mollitia!</p>
+            </div>
+
+
+
+        </div>
+
+        <div class="cizgi"></div>
+        <div class="bolum3">
+
+            <div class="icerik">
+                <h1 id="About">About</h1>
+                <p>My name is Yusuf ÖZEN. I am studying at Dokuz Eylul University, Department of Electrical and
+                    Electronics Engineering.
+                </p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas temporibus rerum, doloribus laborum
+                    ex veritatis sed incidunt rem suscipit ea?</p>
+
+            </div>
+
+            <div class="gorsel">
+                <img src="Images/image.jpeg" alt="urun bilgisi" width="400">
+
+            </div>
+
+        </div>
+
+    </div>
+
+
+    <!-- sayfa altı-->
+
+    <div class="arkaplan">
+
+        <div class="alt kapsayici">
+
+            <div class="baglanti">
+                <h1 style="text-align: justify;" id="contact">Contact</h2>
+                    <ul>
+                        <li><a href="https://www.linkedin.com/in/yusuf-%C3%B6zen-792782201/">https://www.linkedin.com/in/yusuf-%C3%B6zen-792782201/
+                            </a></li>
+                        <li><a href="https://github.com/Yusuf-ozen">https://github.com/Yusuf-ozen</a></li>
+
+                        <li><a href="#">ozenyusuf3549@gmail.com</a></li>
+
+                        <li><a
+                                href="https://www.instagram.com/yusuf_ozen03/">https://www.instagram.com/yusuf_ozen03/</a>
+                        </li>
+
+
+                    </ul>
+            </div>
+
+        </div>
+
+    </div>
+
+
+
+
+
+</body>
+
+</html>
